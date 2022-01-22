@@ -6,6 +6,7 @@ export default makeStyles((theme) => ({
     [theme.breakpoints.up("sm")]: {
       display: "block",
     },
+    color: "white",
   },
   search: {
     position: "relative",
@@ -28,9 +29,10 @@ export default makeStyles((theme) => ({
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
+    color: "white",
   },
   inputRoot: {
-    color: "inherit",
+    color: "white",
   },
   inputInput: {
     padding: theme.spacing(1, 1, 1, 0),
