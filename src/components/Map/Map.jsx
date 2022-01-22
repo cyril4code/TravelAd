@@ -8,7 +8,7 @@ import useStyles from "./style";
 
 const Map = () => {
   const classes = useStyles();
-  const isMobile = useMediaQuery("(min-width:600px)");
+  const isMobile = useMediaQuery("(min-width:700px)");
 
   const coordinates = { lat: 0, lng: 0 };
 
